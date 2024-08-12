@@ -1,5 +1,5 @@
-import { estadoEstudiante } from './modulo.js'; 
+import { verificarEdad } from './modulo.js'; 
 
-let estado = prompt("Coloca la nota");
+let edad = prompt("Por favor, ingresa tu edad:");
 
-estadoEstudiante(estado);
+verificarEdad(estado);
